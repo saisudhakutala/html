@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Baloo+Bhaina|Berkshire+Swash|Bevan|Black+Han+Sans|Black+Ops+One|Bungee|Bungee+Inline|Bungee+Shade|Cabin+Sketch|Capriola|Chango|Chonburi|Faster+One|Fredericka+the+Great|Frijole|Gravitas+One|Lemon|Limelight|Racing+Sans+One|Rubik+Mono+One|Rye|Shojumaru|Shrikhand|Spicy+Rice|Suez+One|Trade+Winds|Vast+Shadow&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent }
+}
+.mainPageBackground{
+    background-color: black;
+}
+
+.bg-yellow{
+    background-color: #f4d03f;
+}
+.text-yellow{
+    color: #f4d03f;
+}
+.font-family-headings{
+    font-family: Bevan;
+}
+.font-family-content{
+    font-family: Abhaya;
+    font-size: 14px;
+}
+.font-size{
+    font-size: 10px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.bg-silver{
+    background-color:  #d6dbdf ;
+}
+.myImage{
+    border:5px solid white;
+    margin-top: 80px;
+    opacity: 0.8;
+}
+@media (min-width:768px){
+    .myImage{
+        border:5px solid transparent;
+        border-bottom: 0px solid transparent;
+        margin-top:0px;
+        width:100%;
+        height:560px;
+        opacity: 0.8;
+    }
+}
+.education{
+   padding-top: 75px;
+}
+@media (min-width:768px)
+{
+    .education{
+      padding-top: 60px;
+    }
+    
+}
+@media (min-width:992px)
+{
+    .education{
+      padding-top: 75px;
+    }
+    
+}
+
+.progressBar{
+    background-color: black;
+     height:24px;
+}
+.verticalLine{
+    border-right: 2px solid white;
+}
+.footerFont{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.iconsInverter{
+    -webkit-filter:invert(100%);
+}
+.headerHover:hover{
+    background-color: white;
+    
+}
+.footerHover:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+.hobbiesIcons{
+    height: 48px;
+    width:50px;
+    border:3px solid black;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 6px;
+    display: inline-block;
+}
+.hobbiesContent{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.contactInfo{
+    padding-top: 70px;
+    padding-left: 150px;
+}
