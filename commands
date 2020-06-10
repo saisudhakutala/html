@@ -1,7 +1,9 @@
 
-for downloading assignments
-aws s3 cp s3://tap.ibhubs.in/html-css/assignment-2 ./assignments/assignment-2 --recursive
+for downloading assignments:
+
+aws s3 cp s3://tap.ibhubs.in/html-css/assignments/assignment-31 ./assignments/assignment-31 --recursive
  
 deployment:
+
 aws s3 cp . s3://tap.ibhubs.in/2019/saisudha-kutala --recursive --exclude ".c9/*"
 
