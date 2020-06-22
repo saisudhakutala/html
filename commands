@@ -7,3 +7,15 @@ deployment:
 
 aws s3 cp . s3://tap.ibhubs.in/2019/saisudha-kutala --recursive --exclude ".c9/*"
 
+js-assignments:
+
+1st four assignments:
+aws s3 cp s3://tap.ibhubs.in/assignments/javascript ./js-assignments --recursive
+
+next:
+aws s3 cp s3://tap.ibhubs.in/javascript/assignments/assignment-5 ./js-assignments/assignment-5 --recursive
+
+js-reference
+aws s3 cp s3://tap.ibhubs.in/javascript/references.html ./js-references.html
+
+
